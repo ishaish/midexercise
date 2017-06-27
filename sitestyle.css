@@ -1,0 +1,92 @@
+/* Styles go here */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+}
+
+header {
+  color: red;
+  background-color: yellow;
+  font-size: 200%;
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+    font-size: 150%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    background-color: #33b5e5;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+    background-color: #33b5e5;
+}
+
+nav a:active, nav a:hover {
+    text-decoration: underline;
+    background-color: purple;
+}
+
+.column {
+  position: relative;
+  width: 33%;
+  margin: auto;
+  display: inline;
+  float: left;
+}
+
+.backimage {
+  postion: absolute;
+  float: left;
+  margin: auto; 
+  width: 95%;
+}
+
+article {
+  postion: absolute;
+  float: left;
+  padding: 15px;
+  top: 0%;
+  width: 33%;
+  text-align: right;
+  direction: rtl;
+}
+
+
+.title {
+  width: 33%;
+  height: 10%;
+  font-size: 200%;
+  text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    /* position: relative; */
+}
+
+
+
+footer {
+  color: blue;
+  background-color: purple;
+  font-size: 150%;
+  padding: 15px;
+  text-align: center;
+  border: 5px solid green;
+}
+
+
